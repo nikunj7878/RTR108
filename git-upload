@@ -1,0 +1,11 @@
+#!/bin/bash
+#hattps://www.tutorialspoint.com/unix/shell_shell_scripting.htm
+if [ $# == 1 ]
+then
+git config --global user.email vaghaninikunj24@gmail.com
+git add .
+# git commit -m "20200206_09_55"
+git commit -m $1
+git puse origin master
+fi
+
