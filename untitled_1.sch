@@ -1,0 +1,23 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-B.sym
+C 41400 45700 1 0 0 voltage-3.sym
+{
+T 41600 46400 5 8 0 0 0 0 1
+device=VOLTAGE_SOURCE
+T 41700 46200 5 10 1 1 0 0 1
+refdes=V?
+}
+C 43900 47000 1 0 0 resistor-1.sym
+{
+T 44200 47400 5 10 0 0 0 0 1
+device=RESISTOR
+T 44100 47300 5 10 1 1 0 0 1
+refdes=R?
+}
+C 45600 45800 1 0 0 resistor-1.sym
+{
+T 45900 46200 5 10 0 0 0 0 1
+device=RESISTOR
+T 45800 46100 5 10 1 1 0 0 1
+refdes=R?
+}
